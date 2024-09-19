@@ -1,0 +1,460 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #232222;
+    
+
+}
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    
+    margin: 0 auto;
+}
+.header__top {
+    display: flex;
+    justify-content: space-around;
+    
+    padding-top: 20px;
+}
+.header {
+    
+}
+
+
+.logo {
+    margin-left: 16px;
+}
+.logo__img {
+}
+.menu {
+}
+.menu__list {
+    margin-top: 16px;
+    display: flex;
+    gap: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #001E64;
+}
+.menu__item {
+}
+.menu__link:hover {
+    border-bottom: 1px solid #001E64;
+}
+.phone {
+    margin-top: 11px;
+    margin-left: 43px;
+}
+.header__content{
+    background-image: url(../images/headerBack.png);
+    background-size: cover ;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    margin-top: -100px;
+    min-height: calc(100vh - 50px);
+
+}
+.title{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 95px;
+    color: #001E64;
+    max-width: 589px;
+    padding-top: 170px;
+    padding-left: 112px;
+    margin-bottom: 60px;
+}
+.header__slider{
+    max-width: 522px;
+    padding-left: 112px;
+    padding-top: 57px;
+    padding-bottom: 135px;
+}
+.header-slider__text{
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+}
+.slick-prev,
+.slick-next{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    position: absolute;
+    left: 40px
+}
+.slick-prev{
+    top: 0;
+
+}
+.slick-next{
+    bottom: 0;
+}
+.slick-dots{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    position: absolute;
+    left: 35px;
+    top: 58px;
+    bottom: 55px;
+}
+.slick-dots button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+    line-height: 28px;
+    opacity: 0.5;
+
+}
+.slick-active button{
+    opacity: 1;
+
+}
+.slick-dots button::before{
+    content: '0';
+}
+.header__content-btn{
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 23px;
+    line-height: 32px;
+    padding: 14px 88px;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,.5);
+    margin-left: 112px;
+    display: inline-block;
+    transform: translateY(-100px);
+    position: absolute;
+    transition: all 0.3s;
+}
+.header__content-btn:hover{
+    color: #001E64;
+    background-color: #fff;
+}
+.header__content-box{
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+}
+.header__content-link--active{
+    font-weight: 700;
+}
+
+
+
+
+.main{
+    padding-top: 100px;
+}
+.product__inner{
+    display: flex;
+    
+}
+.product__name{
+    
+    width: 510px;
+    text-align: center;
+    padding-top: 41px;
+
+}
+.product__name-item{
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    cursor: pointer;
+}
+.product__name-item.slick-current{
+    font-weight: 700;
+    font-size: 36px;
+   
+    color: #001E64;
+}
+.product__name-item+ .product__name-item{
+    margin-top: 30px;
+}
+.product-prev{
+    
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.product-prev,
+.product-next{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    color: #001E64;
+}
+.product__content{
+    width: 600px;
+}
+.product__content-box{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.product__content-img{
+    object-fit: cover;
+
+}  
+
+.product__content-list{
+    width: 291px;
+    list-style: none;
+}
+.product__content-item{
+    margin-bottom: 40px
+}
+.product__content-item span{
+    display: block;
+    margin-bottom: 10px;
+    color: #001E64;
+}
+.product__content-title{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #001E64;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Roboto Slab';
+
+} 
+.product__content-text{
+    margin-bottom: 26px;
+
+}
+.product__content-btn{
+    display: inline-block;
+    color: #001E64;
+    font-family: 'Roboto Slab';
+    font-size: 24px;
+    line-height: 32px ;
+    font-weight: 700;
+    padding: 12px 85px;
+    background-color: transparent;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px solid #001E64;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.product__content-btn:hover {
+    color: #fff;
+    background-color: #001E64;
+}
+
+
+
+.seafood-box{
+    background-image: url(../images/seafoodBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 290px 0px 95px;
+    font-family:'Roboto Slab';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+
+}
+.seafood-box__items{
+    display: flex;
+    justify-content: space-around;
+}
+.seafood-box__item{
+    position: relative;
+    width: 180px;
+    min-height: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../images/mussel.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+/* .seafood__item::before{
+    content: '';
+    color: transparent;
+    position: absolute;
+    width: 180px;
+    height: 165px;
+    top: 0;
+    left: 0;
+    background-image: url(../images/mussel.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+} */
+
+.seafood{
+    padding: 100px 0;
+}
+.seafood__items{
+    margin-bottom: 100px;
+}
+.seafood__item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.seafood__item-title{
+    font-family:'Roboto Slab';
+    max-width: 490px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #001E64;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.seafood__item-text{
+    max-width: 420px;
+    margin-bottom: 20px;
+}
+.seafood-box__item--text-right .seafood__item-text{
+    max-width: 420px;
+}
+.seafood-box__item--text-right .seafood__item-content{
+    margin-right: 180px;
+}
+.seafood__blockquote{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.seafood__blockquote-text{
+    font-size: 18px;
+    max-width: 530px ;
+    margin: 0 auto;
+
+}
+.contacts{
+    background-image: url(../images/contactsBg.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+.contacts__box{
+    margin-left: auto;
+    width: 390px;
+    background-color: #fff;
+    padding: 33px 0 33px 20px;
+}
+.contacts__box-text{
+    max-width: 195px;
+    font-family:'Roboto Slab';
+    color: #001E64;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.contacts__box-list{
+    list-style: none;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+.contacts__box-item{
+    margin-bottom: 30px;
+
+}
+.contacts__box-item span{
+    display: block;
+}
+
+
+.footer{
+   padding:  25px 0 110px;
+}
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: self-end;
+    padding: 0 45px 0 23px;
+}
+.footer__inner .menu{
+    padding-bottom: 30px;
+}
+.footer-social__list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-bottom: 19px;
+    gap: 10px;
+}
+.footer-social__link path{
+    transition: 0.2ms;
+}
+.footer-social__link:hover path{
+    fill: #001E64;
+}
+
+
+
+.menu__btn{
+    width: 40px;
+    border: none;
+    background-color: transparent;
+    padding: 13px 0;
+    position: relative;
+    display: none;
+}
+.menu__btn::before,
+.menu__btn::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 3.5px;
+    background-color: #001E64;
+}
+.menu__btn::before{
+    top: 0;
+}
+.menu__btn::after{
+    bottom: 0;
+}
+.menu__btn span{
+    display: block;
+    height: 3.5px;
+    background-color: #001E64;
+    
+}
