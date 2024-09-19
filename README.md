@@ -19,7 +19,7 @@
         </td>
         <td style="margin-left: 200px;">
            <a href="https://pvlchupryna.github.io/Sup/" title="Go to demo" target="_blank" rel="noopener noreferrer">
-                <img  width="150" src="./docs/images/sup-prev.jpeg" alt="demo">
+                <img  width="150" src="./docs/images/sea-food-prev.jpeg" alt="demo">
            </a>
         </td>
     </tr>
